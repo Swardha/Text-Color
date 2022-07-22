@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+body{
+  background-color: rgb(112, 26, 26);
+}
+
+.container{
+  height:500px;
+  width:600px;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 10px 10px 12px rgba(24, 23, 23, 0.4);
+  display:block;
+  position: absolute;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color: rgb(250, 238, 226);;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  padding-top:10px;
+  
+
+}
+
+input{
+  display: block;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    height: 60px;
+    width: 400px;
+    border-radius: 5px;
+    padding:15px;
+    font-size: 20px;
+    border:none;
+    outline:none;
+    border-radius: 50px;
+}
+
+p{
+  position: absolute;
+  height:100px;
+  padding:10px;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:550px;
+  text-align: center;
+  font-size: 30px;
+  display:block;
+}
+
+.btn-container{
+  position: absolute;
+  height:150px;
+  width:300px;
+  margin:auto;
+  top:300px;
+  left:150px;
+ 
+}
+
+button{
+  width:30px;
+  height:30px;
+  margin-left:20px;
+  margin-top: 20px;
+  padding:5px;
+  border-radius: 50%;
+  border:none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+
+
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green;
+}
+#yellow{
+  background-color: yellow;
+}
+#orange{
+  background-color: orange;
+}
+#blue{
+  background-color:blue ;
+}
+#violet{
+  background-color: violet;
+}
+#purple{
+  background-color: purple;
+}
+#grey{
+  background-color: grey;
+}
+#pink{
+  background-color: pink;
+}
+#cyan{
+  background-color: cyan;
+}
+
